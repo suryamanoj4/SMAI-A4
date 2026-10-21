@@ -1,0 +1,67 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.python-version
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+.virtual_documents/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~
+
+# Assignment data (provided separately; keep local / on Drive)
+dataset/
+data/
+
+# Training artifacts and saved arrays
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+models/
+checkpoints/
+artifacts/
+runs/
+
+# Weights & Biases
+wandb/
+wandb-*
+*.wandb
+
+# Logs
+*.log
+logs/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
