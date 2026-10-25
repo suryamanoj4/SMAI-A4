@@ -65,3 +65,5 @@ logs/
 !.env.example
 *.pem
 *.key
+
+upload_to_hf.py
